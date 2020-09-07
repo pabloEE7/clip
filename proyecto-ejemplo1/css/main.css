@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+/*
+
+color iconos pagina: #343A40;
+color iconos pagina limpieza: #0094D8
+*/
+* {
+    margin: 0;
+    padding: 0;  
+    font-family: 'Raleway', sans-serif;
+
+}
+.cont_iconos{
+    padding: 15px 0 15px 0;
+}
+.iconos{
+    font-size: 20px;
+    color:white; 
+    background: #0094D8;       
+    padding: 15px;
+    border-radius: 50%;
+}
+.titulo{
+    font-size: 30px;
+    padding: 0 20px 0 20px;
+}
+p{
+    font-size: 18px;
+    padding: 0 20px 0 20px;
+}
+.listas li{
+    font-size: 18px;
+}
+@media only screen and (max-width: 500px) {
+    .titulo{
+        font-size: 22px;
+        padding: 0 20px 0 20px;
+    }
+    p{
+        font-size: 15px;
+        
+    }
+    .listas li{
+        font-size: 15px;
+    }
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(../img/cleanliness-2799470_1280.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+body::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(73,89,244);
+    background: linear-gradient(15deg, rgba(73,89,244,1) 0%, rgba(14,35,233,0.7567401960784313) 0%, rgba(54,163,162,1) 100%);        
+    /* #29c1bf */
+}
+.contenedor{
+    width: 100%;
+    height: 100%;
+    background: white;
+    color: black;
+}
+
+
+
+.content_encabezado {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    background-color: transparent;
+    //background-color:;
+    color: white;
+    
+}
+.content_encabezado a{
+    text-decoration:none;
+    color: white;
+}
+.header{
+    float:left;
+    padding:25px;
+}
+.nav_encabezado {
+    float: right;
+    height: 60px;
+}
+.nav_encabezado ul{
+    padding-right: 20px;
+}
+.nav_encabezado ul li{
+    display: inline-block;
+    padding: 25px;   
+}
+@media only screen and (max-width: 600px) {
+    .nav_encabezado ul{
+        margin-right: 0;
+    }
+    .nav_encabezado ul li{
+        padding: 25px 10px 25px 0;   
+    }
+}
+
+
+.content_principal {
+    width: 100%;
+    min-height: 100vh;
+    background-color: transparent;
+    color: white;
+}
+.cont_principal {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+
+.content_valores {
+    padding: 0 0 50px 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.txt_valores{
+}
+
+
+
+.content_servicio {
+    padding: 50px 0 100px 0;
+    text-align:center;
+}
+.cont_servicio{
+    width: 80%;
+    margin: auto;
+}
+.cont_servicio ul{
+    list-style: none;
+}
+
+
+
+
+.content_beneficios{
+    padding: 50px 0 100px 0;
+    text-align:center;
+}
+.cont_beneficios{
+    padding-top: 70px;      
+}
+.panel_beneficios{
+    min-height: 350px;
+    -webkit-box-shadow: 0px 0px 55px -24px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 55px -24px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 55px -24px rgba(0,0,0,0.75);
+}
+.beneficios{
+    padding-top: 40px;
+}
+
+
+
+
+.content_exteriores {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/conifer-1867371_1920.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color:white;
+
+}
+.content_exteriores::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 500px;
+    background: #0b4c5f;
+    opacity: 0.6;
+}
+.cont_exteriores{
+    position: absolute;
+    width: 100%;
+    margin-top: 150px;
+}
+.cont_exteriores h3{
+    text-align: center;
+}
+.text_exteriores{
+    width: 150px; /* ANCHO FIJO*/
+    margin: auto;
+}
+
+
+
+.content_garantia{
+
+    text-align: center;
+    padding: 80px 0 80px 0;
+}
+.cont_garantia{
+    
+}
+.garantia{
+    padding-top: 30px;
+}
+.text_garantia{
+
+}
+
+
+
+.cont_titulos {
+    width: 100%;
+    padding: 50px 0 50px 0;
+}
+.cont_t {
+    width: 33%;
+    height: 100%;
+    display: inline-block;
+}
+.cont_t_1 {
+    width: 250px;
+    height: 320px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 1px solid #E6E6E6;
+}
+.cont_t_2 {
+    width: 250px;
+    height: 290px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 1px solid #E6E6E6;
+}
+.cont_t_3 {
+    width: 250px;
+    height: 280px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 1px solid #E6E6E6;
+}
+
+
+.content_cotizacion{
+    width: 100%;
+    min-height: 550px;
+    background-color: white;
+}
+.cont_cotizacion{
+    width: 70%;
+    min-height: 550px;
+    -webkit-box-shadow: 0px 0px 55px -24px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 55px -24px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 55px -24px rgba(0,0,0,0.75);
+    /*display: flex;
+    align-items: center;*/
+}
+.cotizacion{
+    padding: 100px 30px 100px 30px;
+}
+.cotizacion_form{}
+.cotizacion_texto{
+    padding: 30px 0 30px 0;
+}
+.cotizacion_contacto{
+    background-color: #0094D8;
+    color: white;
+    text-align: center;
+}
+
+.cotizacion form input button{
+    height: 38px;
+    border-radius: 20px;
+}
+.cotizacion form .btn_cotizacion{
+    background-color: #0094D8;
+    color: white;
+
+}
+@media only screen and (max-width: 650px) {
+    .cont_cotizacion{
+        width: 85%;
+        min-height: 650px;
+    }
+}
+
+
+
+.footer { 
+    width: 100%;   
+    padding: 0;
+    background-color: #F2F2F2;  
+}
+.titulo_footer{
+    padding: 20px;
+    font-size: 30px;
+}
+.text_footer, .contacto_footer{
+    width: 100%;
+}
+.contacto_footer p{
+    display: inline-block;
+    padding: 0 5px 0 5px;
+    
+}
+@media only screen and (max-width: 650px) {
+    .contacto_footer p{
+        font-size: 13px;
+    }
+}
+
+
+
+/*      ------------------      */
+
+form.user .form-control-user {
+  font-size: 0.8rem;
+  border-radius: 10rem;
+  padding: 1.5rem 1rem;
+}
+
+form.user .btn-user {
+  font-size: 0.8rem;
+  border-radius: 10rem;
+  padding: 0.75rem 1rem;
+}
+
+
